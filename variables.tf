@@ -35,6 +35,6 @@ variable "GKE_POOL_NAME" {
 
 variable "GKE_NODE_DISK_GB" {
   type        = string
-  default     = "50"
+  default     = "30"
   description = "GKE disk size GB"
 }
